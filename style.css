@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(-135deg,black,rgb(53, 53, 53));
+    width: 7.5cm;
+    height: 55px;
+    border: none;
+    margin: 0 0;
+    padding: 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px 10px;
+    color: bisque;
+}
+
+#pass {
+    background: transparent;
+    border: 1px solid red;
+    text-align: center;
+    color: aqua;
+    font-size: large;
+    font-weight: 400;
+}
+
+.copy-link {
+    --height: 36px;
+  
+    display: flex;
+    max-width: 250px;
+  }
+  
+  .copy-link-input {
+    flex-grow: 1;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    outline: none;
+  }
+  
+  .copy-link-input:hover {
+    background: #eeeeee;
+  }
+  
+  .copy-link-button {
+    flex-shrink: 0;
+    width: var(--height);
+    height: var(--height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dddddd;
+    color: #333333;
+    outline: none;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    transition: 0.3s;
+ 
+  }
+  .copy-link-button span {
+    font-weight: 400;
+  }
+  .copy-link-button:hover {
+    background: #e3adad;
+  }
